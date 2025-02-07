@@ -1,0 +1,12 @@
+Parsing a Configuration File:
+
+Problem: Implement a parser for a configuration file where each line contains a key-value pair separated by an equals sign (=).
+Lines may include comments starting with a # symbol, and keys or values may have leading or trailing whitespace. 
+Your parser should ignore comments and whitespace, and store the key-value pairs in an appropriate data structure.
+
+Example Input:
+# Sample configuration
+host = localhost
+port = 8080
+# End of configuration
+Expected Output: A data structure (e.g., std::map) containing {"host": "localhost", "port": "8080"}.

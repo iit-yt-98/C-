@@ -1,0 +1,4 @@
+# Sample configuration
+host = localhost
+port = 8080
+# End of configuration
